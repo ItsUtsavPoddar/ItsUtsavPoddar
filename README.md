@@ -6,9 +6,10 @@
 -->
 
 
-
+<!--
 [![Utsav's GitHub stats](https://github-readme-stats.vercel.app/api?username=ItsUtsavPoddar&count_private=true&show_icons=true&theme=dark&hide_border=true)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=itsutsavpoddar&theme=dark&hide_border=true)<br/>
+-->
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=itsutsavpoddar&langs_count=8&layout=compact&theme=dark&hide_border=true)
 
 ## 🌐 Socials:
