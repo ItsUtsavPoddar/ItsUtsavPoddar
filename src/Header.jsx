@@ -3,7 +3,7 @@ import { Toggle } from "./components/ui/toggle";
 const Header = () => {
   return (
     <>
-      <header className="flex items-center justify-between px-3 py-3 bg-[#27272a] text-violet-50 dark:text-black bg-[#fafafa]">
+      <header className="flex items-center justify-between px-3 py-3 bg-[#27272a] text-violet-50">
         <div className="text-xl  font-semibold">Utsav Poddar</div>
         <nav className="flex gap-4 justify-center">
           <a className="hover:underline" href="/">
