@@ -3,7 +3,7 @@ import { Button } from "./components/ui/button";
 const About = () => {
   return (
     <>
-      <main className="px-4 py-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 ">
+      <main className="pt-20 px-4 py-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 ">
         <div className="col-span-1 sm:col-span-2 lg:col-span-1 flex flex-col items-center justify-center">
           <img
             alt="John Doe"
@@ -27,26 +27,27 @@ const About = () => {
               Hello! I'm Utsav, a developer based in India.
             </h3>
             <p className="text-gray-500 mt-2">
-              I am a passionate software engineer with experience in building
-              innovative web applications. I love exploring new technologies and
-              constantly learning to improve my skills.
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit
+              sint consequuntur laudantium error at soluta enim dolores
+              perferendis ab voluptas, explicabo dolorum est, nostrum, odio
+              inventore similique velit delectus blanditiis.
             </p>
           </div>
           <div>
             <div className="mt-2 flex items-center gap-4">
               <a
                 className="text-gray-500 hover:text-gray-900 dark:hover:text-gray-100"
-                href="https://www.youtube.com/"
+                href="https://www.linkedin.com/in/itsutsavpoddar/"
                 target="_blank"
               >
-                <Button>View Linkedin</Button>
+                <Button className="bg-[#18181b]">View Linkedin</Button>
               </a>
               <a
                 className="text-gray-500 hover:text-gray-900 dark:hover:text-gray-100"
                 href="https://www.github.com/itsutsavpoddar"
                 target="_blank"
               >
-                <Button>View Github</Button>
+                <Button className="bg-[#18181b]">View Github</Button>
               </a>
             </div>
           </div>

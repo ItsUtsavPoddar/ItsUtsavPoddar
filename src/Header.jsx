@@ -1,23 +1,43 @@
-import { Toggle } from "./components/ui/toggle";
-
+import { Link } from "react-scroll";
 const Header = () => {
   return (
     <>
-      <header className="flex items-center justify-between px-3 py-3 bg-[#27272a] text-violet-50">
+      <header className=" fixed top-0 left-0 right-0 z-10 flex items-center justify-between px-4 py-3 bg-[#27272a] text-violet-50">
         <div className="text-xl  font-semibold">Utsav Poddar</div>
         <nav className="flex gap-4 justify-center">
-          <a className="hover:underline" href="/">
-            About
-          </a>
-          <a className="hover:underline" href="/">
+          <Link
+            className="hover:underline"
+            activeClass="active"
+            to="projects"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
             Projects
-          </a>
-          <a className="hover:underline" href="/">
+          </Link>
+          <Link
+            className="hover:underline"
+            activeClass="active"
+            to="activity"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
             Activity
-          </a>
-          <a className="hover:underline" href="/">
+          </Link>
+          <Link
+            className="hover:underline"
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
             Contact
-          </a>
+          </Link>
         </nav>
         {/* <div>
           <Toggle aria-label="Toggle dark mode">

@@ -4,16 +4,16 @@ import { Button } from "./components/ui/button";
 const Projects = () => {
   return (
     <>
-      <main className="px-4 py-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 bg-[#27272a] text-violet-50 dark:text-black bg-[#fafafa]">
-        <div className="col-span-1 sm:col-span-2 lg:col-span-3">
+      <main className="px-4 py-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 bg-[#27272a] text-violet-50 ">
+        <div className="col-span-1 sm:col-span-2 lg:col-span-3 ">
           <h3 className=" text-center text-lg font-bold mb-4">Projects</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            <Card>
+            <Card className="bg-[#27272a] text-violet-50 border-0">
               <img
                 alt="Project 1"
                 className="rounded-t-md object-cover w-full h-48"
                 height="200"
-                src="/placeholder.svg"
+                src="src\assets\satellite-project.png"
                 style={{
                   aspectRatio: "300/200",
                   objectFit: "cover",
@@ -21,14 +21,40 @@ const Projects = () => {
                 width="300"
               />
               <CardContent className="p-4">
-                <h3 className="text-lg font-semibold">Project 1</h3>
-                <p className="text-gray-500 mt-2">
-                  A brief description of the first Project.
+                <h3 className="text-lg font-semibold">Satellite Tracker</h3>
+                <p className="text-gray mt-2">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Deserunt corrupti ullam neque vel laboriosam sapiente sit
+                  libero nihil fugit, dolores sunt beatae recusandae, obcaecati
+                  nostrum cum reprehenderit, eveniet veniam iure?
                 </p>
-                <div className="mt-4">
-                  <Button size="sm" variant="link">
-                    View Project
-                  </Button>
+                <div className="mt-4 flex gap-2">
+                  <a
+                    className="inline-flex items-center justify-center"
+                    href="https://satellite.utsavpoddar.tech"
+                    target="_blank"
+                  >
+                    <Button
+                      className="text-white bg-[#18181b]"
+                      size="sm"
+                      variant="link"
+                    >
+                      View Project
+                    </Button>
+                  </a>
+                  <a
+                    className="inline-flex items-center justify-center"
+                    href="https://satellite.utsavpoddar.tech"
+                    target="_blank"
+                  >
+                    <Button
+                      className="text-white bg-[#18181b]"
+                      size="sm"
+                      variant="link"
+                    >
+                      Case Study
+                    </Button>
+                  </a>
                 </div>
               </CardContent>
             </Card>
