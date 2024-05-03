@@ -13,7 +13,7 @@ const Projects = () => {
                 alt="Satellite Tracker"
                 className="rounded-t-md object-cover w-full h-48"
                 height="200"
-                src="./src/assets/satellite-project.png"
+                src="/satellite-project.png"
                 style={{
                   aspectRatio: "300/200",
                   objectFit: "cover",
