@@ -10,10 +10,10 @@ const Projects = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <Card className="bg-[#27272a] text-violet-50 border-0">
               <img
-                alt="Project 1"
+                alt="Satellite Tracker"
                 className="rounded-t-md object-cover w-full h-48"
                 height="200"
-                src="src\assets\satellite-project.png"
+                src="./src/assets/satellite-project.png"
                 style={{
                   aspectRatio: "300/200",
                   objectFit: "cover",
