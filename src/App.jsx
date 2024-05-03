@@ -10,9 +10,7 @@ function App() {
     <>
       <div className="font-cust bg-[#27272a] text-violet-50 ">
         <Header />
-        <div id="about">
-          <About />
-        </div>
+        <About />
         <div id="projects">
           <Projects />
         </div>
