@@ -3,7 +3,7 @@ import { Button } from "./components/ui/button";
 const About = () => {
   return (
     <>
-      <main className="px-4 py-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 bg-[#27272a] text-violet-50 dark:text-black bg-[#fafafa]">
+      <main className="px-4 py-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 ">
         <div className="col-span-1 sm:col-span-2 lg:col-span-1 flex flex-col items-center justify-center">
           <img
             alt="John Doe"

@@ -6,7 +6,7 @@ import Activity from "./Activity";
 function App() {
   return (
     <>
-      <div className="font-cust bg-[#27272a] text-violet-50 dark:text-black bg-[#fafafa]">
+      <div className="font-cust bg-[#27272a] text-violet-50 ">
         <Header />
         <About />
         <Projects />
