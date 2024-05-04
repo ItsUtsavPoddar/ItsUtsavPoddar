@@ -3,7 +3,8 @@ import About from "./About";
 import Projects from "./Projects";
 import Footer from "./Footer";
 import Activity from "./Activity";
-import { Link } from "react-scroll";
+import Contact from "./Contact";
+import Contact2 from "./Contact2";
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
         </div>
         <div id="activity">
           <Activity />
+        </div>
+        <div id="contact">
+          <Contact2 />
         </div>
         <Footer />
       </div>

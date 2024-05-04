@@ -8,6 +8,17 @@ const Header = () => {
           <Link
             className="hover:underline"
             activeClass="active"
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            Contact
+          </Link>
+          <Link
+            className="hover:underline"
+            activeClass="active"
             to="projects"
             spy={true}
             smooth={true}
@@ -27,17 +38,6 @@ const Header = () => {
             duration={500}
           >
             Activity
-          </Link>
-          <Link
-            className="hover:underline"
-            activeClass="active"
-            to="about"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}
-          >
-            Contact
           </Link>
         </nav>
         {/* <div>

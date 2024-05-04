@@ -6,7 +6,10 @@ const Activity = () => {
     <>
       <main className="px-4 py-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 ">
         <div className="col-span-1 sm:col-span-2 lg:col-span-3">
-          <h3 className="text-center text-lg font-bold mb-4">Activities</h3>
+          <h2 className=" text-center text-3xl font-bold tracking-tighter pb-7 md:text-4xl">
+            Activities
+          </h2>
+          {/* <h3 className="text-center text-lg font-bold mb-4">Activities</h3> */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className=" rounded-lg bg-gradient-to-r from-[#333333] from-0% to-[#dd1818] to-100% p-0.5">
               {/* className=
