@@ -17,12 +17,12 @@ const Activity = () => {
                 "rounded-lg border bg-card text-card-foreground shadow-sm",
                 className
               )} */}
-              <Card className="bg-[#27272a] text-violet-50 border-0">
+              <Card className="bg-[#27272a] text-violet-50 border-0 pt-1">
                 <img
                   alt=""
-                  className="rounded-t-md object-cover w-full h-64 px-1  "
+                  className="rounded-t-lg object-cover w-full h-64 px-1  "
                   height="800"
-                  src="/satellite-sproject.png"
+                  src="https://ralfvanveen.com/wp-content/uploads/2021/06/Placeholder-_-Glossary.svg"
                   style={{
                     aspectRatio: "16/9",
                     objectFit: "cover",
@@ -40,7 +40,7 @@ const Activity = () => {
                   <div className="mt-4 flex gap-2">
                     <a
                       className="inline-flex items-center justify-center"
-                      href="https://satellite.utsavpoddar.tech"
+                      href="#"
                       target="_blank"
                     >
                       <Button
@@ -48,20 +48,7 @@ const Activity = () => {
                         size="sm"
                         variant="link"
                       >
-                        View activity
-                      </Button>
-                    </a>
-                    <a
-                      className="inline-flex items-center justify-center"
-                      href="https://satellite.utsavpoddar.tech"
-                      target="_blank"
-                    >
-                      <Button
-                        className="text-white bg-[#18181b]"
-                        size="sm"
-                        variant="link"
-                      >
-                        Case Study
+                        Dont click
                       </Button>
                     </a>
                   </div>

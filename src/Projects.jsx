@@ -1,6 +1,6 @@
 import { Card, CardContent } from "./components/ui/card";
 import { Button } from "./components/ui/button";
-import Ex from "./Ex";
+import Satellite_Case from "./Satellite_Case";
 
 const Projects = () => {
   return (
@@ -18,10 +18,10 @@ const Projects = () => {
                 "rounded-lg border bg-card text-card-foreground shadow-sm",
                 className
               )} */}
-              <Card className="bg-[#27272a] text-violet-50 border-0">
+              <Card className="bg-[#27272a] text-violet-50 border-0 pt-1">
                 <img
                   alt="Satellite Tracker"
-                  className="rounded-t-md object-cover w-full h-64 px-1  "
+                  className="rounded-t-lg object-cover w-full h-64 px-1  "
                   height="800"
                   src="/satellite-project.png"
                   style={{
@@ -52,19 +52,8 @@ const Projects = () => {
                         View Project
                       </Button>
                     </a>
-                    <a
-                      className="inline-flex items-center justify-center"
-                      href="https://satellite.utsavpoddar.tech"
-                      target="_blank"
-                    >
-                      <Button
-                        className="text-white bg-[#18181b]"
-                        size="sm"
-                        variant="link"
-                      >
-                        Case Study
-                      </Button>
-                    </a>
+
+                    <Satellite_Case />
                   </div>
                 </CardContent>
               </Card>
@@ -76,12 +65,12 @@ const Projects = () => {
                 "rounded-lg border bg-card text-card-foreground shadow-sm",
                 className
               )} */}
-              <Card className="bg-[#27272a] text-violet-50 border-0">
+              <Card className="bg-[#27272a] text-violet-50 border-0 pt-1">
                 <img
                   alt="s"
-                  className="rounded-t-md object-cover w-full h-64 px-1  "
+                  className="rounded-t-lg object-cover w-full h-64 px-1  "
                   height="800"
-                  src="/satellites-project.png"
+                  src="https://ralfvanveen.com/wp-content/uploads/2021/06/Placeholder-_-Glossary.svg"
                   style={{
                     aspectRatio: "16/9",
                     objectFit: "cover",
@@ -99,7 +88,7 @@ const Projects = () => {
                   <div className="mt-4 flex gap-2">
                     <a
                       className="inline-flex items-center justify-center"
-                      href="https://satellite.utsavpoddar.tech"
+                      href="#"
                       target="_blank"
                     >
                       <Button
@@ -107,16 +96,9 @@ const Projects = () => {
                         size="sm"
                         variant="link"
                       >
-                        View Project
+                        Dont Click
                       </Button>
                     </a>
-
-                    <Button
-                      className="text-white bg-[#18181b]"
-                      size="sm"
-                      variant="link"
-                    ></Button>
-                    <Ex />
                   </div>
                 </CardContent>
               </Card>

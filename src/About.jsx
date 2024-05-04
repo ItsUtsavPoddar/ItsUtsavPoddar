@@ -15,11 +15,9 @@ const About = () => {
             </div>
             <div className="order-1 md:order-2">
               <h1 className="text-4xl md:text-5xl font-bold mb-4">
-                Utsav Poddar
+                Hello! I'm Utsav, a developer from Planet E011820H
               </h1>
-              <h2 className="text-2xl md:text-3xl font-semibold mb-6">
-                Hello! I'm Utsav, a developer based in India.
-              </h2>
+              <h2 className="text-2xl md:text-3xl font-semibold mb-6"></h2>
               <p className="text-lg md:text-xl mb-8">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Tenetur laboriosam nemo eum iste libero perspiciatis impedit
