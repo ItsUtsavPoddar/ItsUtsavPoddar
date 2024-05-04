@@ -15,7 +15,7 @@ const About = () => {
             </div>
             <div className="order-1 md:order-2">
               <h1 className="text-4xl md:text-5xl font-bold mb-4">
-                Hello! I'm Utsav, a developer from Planet E011820H
+                Hello! I'm Utsav, a developer from Planet E118208
               </h1>
               <h2 className="text-2xl md:text-3xl font-semibold mb-6"></h2>
               <p className="text-lg md:text-xl mb-8">
