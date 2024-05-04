@@ -1,5 +1,6 @@
 import { Card, CardContent } from "./components/ui/card";
 import { Button } from "./components/ui/button";
+import Ex from "./Ex";
 
 const Projects = () => {
   return (
@@ -109,19 +110,13 @@ const Projects = () => {
                         View Project
                       </Button>
                     </a>
-                    <a
-                      className="inline-flex items-center justify-center"
-                      href="https://satellite.utsavpoddar.tech"
-                      target="_blank"
-                    >
-                      <Button
-                        className="text-white bg-[#18181b]"
-                        size="sm"
-                        variant="link"
-                      >
-                        Case Study
-                      </Button>
-                    </a>
+
+                    <Button
+                      className="text-white bg-[#18181b]"
+                      size="sm"
+                      variant="link"
+                    ></Button>
+                    <Ex />
                   </div>
                 </CardContent>
               </Card>

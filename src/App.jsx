@@ -4,7 +4,6 @@ import Projects from "./Projects";
 import Footer from "./Footer";
 import Activity from "./Activity";
 import Contact from "./Contact";
-import Contact2 from "./Contact2";
 
 function App() {
   return (
@@ -19,7 +18,7 @@ function App() {
           <Activity />
         </div>
         <div id="contact">
-          <Contact2 />
+          <Contact />
         </div>
         <Footer />
       </div>
