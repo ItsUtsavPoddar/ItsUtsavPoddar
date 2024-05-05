@@ -12,7 +12,7 @@ const Activity = () => {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className=" rounded-lg bg-gradient-to-r from-[#7303c0] from-20% via-[#ec38bc]  to-[#fdeff9] to-97% p-0.5">
-              <Card className="size-full bg-[#27272a] text-violet-50 border-0 pt-1 flex flex-col">
+              <Card className="size-full bg-[#171717] text-violet-50 border-0 pt-1 flex flex-col">
                 <img
                   alt="s"
                   className="rounded-t-lg object-cover w-full h-64 px-1  "

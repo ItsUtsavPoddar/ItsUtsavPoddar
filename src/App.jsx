@@ -8,7 +8,7 @@ import Contact from "./Contact";
 function App() {
   return (
     <>
-      <div className="font-cust bg-[#27272a] text-violet-50 ">
+      <div className="font-cust bg-[#171717] text-white ">
         <Header />
         <div id="about">
           <About />

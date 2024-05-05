@@ -39,7 +39,7 @@ const About = () => {
                   href="https://www.linkedin.com/in/itsutsavpoddar/"
                   target="_blank"
                 >
-                  <Button className="bg-[#18181b]">View Linkedin</Button>
+                  <Button className="bg-[#4c0519]">View Linkedin</Button>
                 </a>
                 <a
                   className="text-gray-500 hover:text-gray-900 dark:hover:text-gray-100"
@@ -47,7 +47,7 @@ const About = () => {
                   href="/utsav_poddar_resume.pdf"
                   target="_blank"
                 >
-                  <Button className="bg-[#18181b]">Download Resume</Button>
+                  <Button className="bg-[#4c0519]">Download Resume</Button>
                 </a>
               </div>
             </div>

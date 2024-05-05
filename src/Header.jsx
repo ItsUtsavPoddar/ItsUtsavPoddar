@@ -2,8 +2,8 @@ import { Link } from "react-scroll";
 const Header = () => {
   return (
     <>
-      <header className=" fixed top-0 left-0 right-0 z-10 flex items-center justify-between px-4 py-3 bg-[#181818] bg-opacity-96 text-violet-50">
-        <div className="text-lg  font-light">
+      <header className=" fixed top-0 left-0 right-0 z-10 flex items-center justify-between px-4 py-3 bg-[#0a0a0a] bg-opacity-96 text-lg">
+        <div className="text-xl  font-light">
           <Link
             className="cursor-pointer"
             activeClass="active"
