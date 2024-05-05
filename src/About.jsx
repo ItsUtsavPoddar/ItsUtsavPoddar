@@ -5,25 +5,34 @@ const About = () => {
     <>
       <section className=" py-20 md:py-32">
         <div className="container mx-auto px-4 md:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-            <div className="flex justify-center items-center order-1 md:order-2">
+          <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 items-center">
+            <div className="flex justify-center items-center order-1 md:order-2 lg: col-start-1 col-end-2 ">
               <img
                 alt="John Doe"
                 className="rounded-md shadow-sm"
                 src="https://avatars.githubusercontent.com/u/85995114?v=4"
               />
             </div>
-            <div className="order-1 md:order-2">
+            <div className="order-1 col-start-1 col-end-2 md:order-2 lg:col-start-2 col-end-5">
               <h1 className="text-4xl md:text-5xl font-bold mb-4">
                 Hello! I'm Utsav, a developer from Planet E118208
               </h1>
               <h2 className="text-2xl md:text-3xl font-semibold mb-6"></h2>
               <p className="text-lg md:text-xl mb-8">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Tenetur laboriosam nemo eum iste libero perspiciatis impedit
-                eius temporibus excepturi possimus recusandae officiis, itaque
-                aliquid molestiae architecto quam nesciunt iure non?
+                As a software engineer based in India, I'm passionate about
+                building innovative solutions and craft them from the void of
+                mere ideas. Currently pursuing Computer Science engineering at
+                Siksha 'O' Anusandhan University, where I developed a solid
+                grasp of subjects like Operating Systems, and Databases.
               </p>
+              <p className="text-lg md:text-xl mb-8">
+                Coding clubs and hackathons have helped me develop a
+                collaborative and innovative approach to rapid problem-solving.
+                I'm actively seeking new opportunities as a developer to
+                contribute my skills and enthusiasm. Ready to bring me aboard?
+              </p>
+
+              <p className="text-lg md:text-xl mb-8"></p>
               <div className="mt-2 flex items-center gap-4">
                 <a
                   className="text-gray-500 hover:text-gray-900 dark:hover:text-gray-100"
@@ -34,10 +43,10 @@ const About = () => {
                 </a>
                 <a
                   className="text-gray-500 hover:text-gray-900 dark:hover:text-gray-100"
-                  href="https://www.github.com/itsutsavpoddar"
+                  href="/utsav_poddar_resume.pdf"
                   target="_blank"
                 >
-                  <Button className="bg-[#18181b]">View Github</Button>
+                  <Button className="bg-[#18181b]">Download Resume</Button>
                 </a>
               </div>
             </div>

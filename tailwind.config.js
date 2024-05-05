@@ -18,6 +18,7 @@ module.exports = {
     },
     fontFamily: {
       cust: ["Open Sans"],
+      fontSize: ["responsive"],
     },
     extend: {
       colors: {

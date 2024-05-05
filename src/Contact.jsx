@@ -13,35 +13,40 @@ const Contact = () => {
           <div className="flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-24">
             <a
               className="flex items-center space-x-2 text-gray-50 hover:text-gray-500 "
-              href="#"
+              href="https://twitter.com/ItsUtsavPoddar"
+              target="_blank"
             >
               <TwitterIcon className="h-6 w-6" />
               <span>X</span>
             </a>
             <a
               className="flex items-center space-x-2 text-gray-50 hover:text-gray-500"
-              href="#"
+              href="https://www.linkedin.com/in/itsutsavpoddar"
+              target="_blank"
             >
               <LinkedinIcon className="h-6 w-6" />
               <span>LinkedIn</span>
             </a>
             <a
               className="flex items-center space-x-2 text-gray-50 hover:text-gray-500"
-              href="#"
+              href="https://github.com/ItsUtsavPoddar"
+              target="_blank"
             >
               <GithubIcon className="h-6 w-6" />
               <span>GitHub</span>
             </a>
             <a
               className="flex items-center space-x-2 text-gray-50 hover:text-gray-500"
-              href="#"
+              href="https://www.instagram.com/itsutsavpoddar/"
+              target="_blank"
             >
               <InstagramIcon className="h-6 w-6" />
               <span>Instagram</span>
             </a>
             <a
               className="flex items-center space-x-2 text-gray-50 hover:text-gray-500"
-              href="#"
+              href="mailto:utsavpoddar002@gmail.com"
+              target="_blank"
             >
               <MailIcon className="h-6 w-6" />
               <span>Email</span>
