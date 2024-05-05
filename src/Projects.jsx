@@ -53,14 +53,8 @@ const Projects = () => {
                 </CardContent>
               </Card>
             </div>
-
             <div className=" rounded-lg bg-gradient-to-r from-[#7303c0] from-20% via-[#ec38bc]  to-[#fdeff9] to-97% p-0.5">
-              {/* className=
-              {cn(
-                "rounded-lg border bg-card text-card-foreground shadow-sm",
-                className
-              )} */}
-              <Card className="bg-[#27272a] text-violet-50 border-0 pt-1">
+              <Card className="size-full bg-[#27272a] text-violet-50 border-0 pt-1 flex flex-col">
                 <img
                   alt="s"
                   className="rounded-t-lg object-cover w-full h-64 px-1  "
@@ -72,28 +66,61 @@ const Projects = () => {
                   }}
                   width="1540"
                 />
-                <CardContent className="p-4">
-                  <h3 className="text-lg font-semibold">Project 2</h3>
-                  <p className="text-gray mt-2">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Deserunt corrupti ullam neque vel laboriosam sapiente sit
-                    libero nihil fugit, dolores sunt beatae recusandae,
-                    obcaecati nostrum cum reprehenderit, eveniet veniam iure?
-                  </p>
-                  <div className="mt-4 flex gap-2">
+                <CardContent className="p-4 flex flex-col justify-between flex-1">
+                  <h3 className="text-lg font-semibold">Lorem ipsum</h3>
+                  <p className="text-gray mt-2">lorem200</p>
+                  <div className="mt-4 flex gap-2 justify-end">
                     <a
                       className="inline-flex items-center justify-center"
                       href="#"
                       target="_blank"
                     >
                       <Button
-                        className="text-white bg-[#18181b]"
+                        className="text-white bg-[#18181b] justify-end"
                         size="sm"
                         variant="link"
                       >
-                        Dont Click
+                        View Project
                       </Button>
                     </a>
+
+                    <Satellite_Case />
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+            <div className=" rounded-lg bg-gradient-to-r from-[#7303c0] from-20% via-[#ec38bc]  to-[#fdeff9] to-97% p-0.5">
+              <Card className="size-full bg-[#27272a] text-violet-50 border-0 pt-1 flex flex-col">
+                <img
+                  alt="s"
+                  className="rounded-t-lg object-cover w-full h-64 px-1  "
+                  height="800"
+                  src="https://ralfvanveen.com/wp-content/uploads/2021/06/Placeholder-_-Glossary.svg"
+                  style={{
+                    aspectRatio: "16/9",
+                    objectFit: "cover",
+                  }}
+                  width="1540"
+                />
+                <CardContent className="p-4 flex flex-col justify-between flex-1">
+                  <h3 className="text-lg font-semibold">Lorem ipsum</h3>
+                  <p className="text-gray mt-2">lorem200</p>
+                  <div className="mt-4 flex gap-2 justify-end">
+                    <a
+                      className="inline-flex items-center justify-center"
+                      href="#"
+                      target="_blank"
+                    >
+                      <Button
+                        className="text-white bg-[#18181b] justify-end"
+                        size="sm"
+                        variant="link"
+                      >
+                        View Project
+                      </Button>
+                    </a>
+
+                    <Satellite_Case />
                   </div>
                 </CardContent>
               </Card>

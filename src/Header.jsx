@@ -3,10 +3,22 @@ const Header = () => {
   return (
     <>
       <header className=" fixed top-0 left-0 right-0 z-10 flex items-center justify-between px-4 py-3 bg-[#181818] bg-opacity-96 text-violet-50">
-        <div className="text-lg  font-light">UTSAV PODDAR</div>
+        <div className="text-lg  font-light">
+          <Link
+            className="cursor-pointer"
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            UTSAV PODDAR
+          </Link>
+        </div>
         <nav className="flex gap-4 justify-center">
           <Link
-            className="hover:underline"
+            className="hover:underline cursor-pointer"
             activeClass="active"
             to="contact"
             spy={true}
@@ -17,7 +29,7 @@ const Header = () => {
             Contact
           </Link>
           <Link
-            className="hover:underline"
+            className="hover:underline cursor-pointer"
             activeClass="active"
             to="activity"
             spy={true}
@@ -28,7 +40,7 @@ const Header = () => {
             Activity
           </Link>
           <Link
-            className="hover:underline"
+            className="hover:underline cursor-pointer"
             activeClass="active"
             to="projects"
             spy={true}
