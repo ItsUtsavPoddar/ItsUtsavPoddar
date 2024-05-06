@@ -18,13 +18,14 @@ const Satellite_Case = () => {
           <div className=" rounded-lg bg-gradient-to-r from-[#1a2a6c] from-0% via-[#b21f1f] via-50% to-[#fdbb2d] to-100% p-0.5">
             <div className="bg-black rounded-lg p-1.5">
               <DialogHeader>
-                <DialogTitle className="text-center underline py-1">
+                <DialogTitle className="text-center  text-2xl py-1">
                   Satellite Tracker
                 </DialogTitle>
                 <DialogDescription className="text-center text-white ">
                   <p className="py-4 px-0.5">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Tenetur provident
+                    Giving the project a total makeover, updating the codebase,
+                    and giving it a fresh new look. Will update the case study
+                    as well
                   </p>
                 </DialogDescription>
               </DialogHeader>
@@ -39,18 +40,7 @@ const Satellite_Case = () => {
                 }}
                 width="1540"
               />
-              <p className="py-4 px-2">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Tenetur provident dolore quidem itaque suscipit. A quo animi
-                maiores modi recusandae assumenda, libero dicta neque aut.
-                Minima aliquid mollitia quae necessitatibus.
-              </p>
-              <p className="py-4 px-2">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Tenetur provident dolore quidem itaque suscipit. A quo animi
-                maiores modi recusandae assumenda, libero dicta neque aut.
-                Minima aliquid mollitia quae necessitatibus.
-              </p>
+              <p className="py-4 px-2">Stay Tuned</p>
             </div>
           </div>
         </DialogContent>

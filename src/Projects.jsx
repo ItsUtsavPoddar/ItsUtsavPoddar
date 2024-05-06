@@ -26,7 +26,12 @@ const Projects = () => {
                 />
                 <CardContent className="p-4 flex flex-col justify-between flex-1">
                   <h3 className="text-lg font-semibold">Satellite Tracker</h3>
-                  <p className="text-gray mt-2">lorem200</p>
+                  <p className="text-gray mt-2">
+                    WebApp that leverages satellites' orbital data from
+                    Celestrak. Discover real-time positioning, height details,
+                    and track the next 80 minutes of their orbital path and
+                    beyond.
+                  </p>
                   <div className="mt-4 flex gap-2 justify-end">
                     <a
                       className="inline-flex items-center justify-center"
