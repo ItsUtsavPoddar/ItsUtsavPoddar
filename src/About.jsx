@@ -3,17 +3,19 @@ import { Button } from "./components/ui/button";
 const About = () => {
   return (
     <>
-      <section className=" py-20 md:py-32">
-        <div className="container mx-auto px-4 md:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 items-center">
-            <div className="flex justify-center items-center order-1 md:order-2 lg: col-start-1 col-end-2 ">
+      <section className=" py-20 md:py-32 ">
+        <div className="container mx-0 px-4 md:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 items-center">
+            <div className="flex justify-center items-center order-1 md:order-2 lg: col-start-1 col-end-3 ">
               <img
                 alt="John Doe"
                 className="rounded-md shadow-sm"
-                src="https://avatars.githubusercontent.com/u/85995114?v=4"
+                src="/photu.png"
+                width="350"
+                height="350"
               />
             </div>
-            <div className="order-1 col-start-1 col-end-2 md:order-2 lg:col-start-2 col-end-5">
+            <div className="order-1 col-start-1 col-end-2 md:order-2 lg:col-start-3 col-end-6">
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
                 Hello! I'm Utsav, a developer from Planet E118208
               </h1>

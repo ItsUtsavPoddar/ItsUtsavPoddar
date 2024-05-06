@@ -1,6 +1,8 @@
 import { Card, CardContent } from "./components/ui/card";
 import { Button } from "./components/ui/button";
-import Satellite_Case from "./Satellite_Case";
+import Hackathons from "./Hackathons";
+import OpenSource from "./OpenSource";
+import Twitch from "./Twitch";
 const Activity = () => {
   return (
     <>
@@ -11,13 +13,42 @@ const Activity = () => {
           </h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div className=" rounded-lg bg-gradient-to-r from-[#7303c0] from-20% via-[#ec38bc]  to-[#fdeff9] to-97% p-0.5">
+            <div className=" rounded-lg bg-gradient-to-r from-[#0F2027] from-0% via-[#2C5364] via-50% to-[#0F2027] to-100% p-0.5">
               <Card className="size-full bg-[#171717] text-violet-50 border-0 pt-1 flex flex-col">
                 <img
                   alt="s"
                   className="rounded-t-lg object-cover w-full h-64 px-1  "
                   height="800"
-                  src="https://ralfvanveen.com/wp-content/uploads/2021/06/Placeholder-_-Glossary.svg"
+                  src="./opensource.png"
+                  style={{
+                    aspectRatio: "16/9",
+                    objectFit: "cover",
+                  }}
+                  width="1540"
+                />
+                <CardContent className="p-4 flex flex-col justify-between flex-1">
+                  <h3 className="text-lg font-semibold">
+                    Open Source and Organizing
+                  </h3>
+                  <p className="text-gray mt-2">
+                    Passionate about giving back, I've actively contributed to
+                    open source projects. As a coding club coordinator, We have
+                    organized engaging events like Blind code and female-centric
+                    coding event.
+                  </p>
+                  <div className="mt-4 flex gap-2 justify-end">
+                    <OpenSource />
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+            <div className=" rounded-lg bg-gradient-to-r from-[#0F2027] from-0% via-[#eef2f3] via-50% to-[#0F2027] to-100% p-0.5">
+              <Card className="size-full bg-[#171717] text-violet-50 border-0 pt-1 flex flex-col">
+                <img
+                  alt="s"
+                  className="rounded-t-lg object-cover w-full h-64 px-1  "
+                  height="800"
+                  src="./hackathon2.jpg"
                   style={{
                     aspectRatio: "16/9",
                     objectFit: "cover",
@@ -27,70 +58,47 @@ const Activity = () => {
                 <CardContent className="p-4 flex flex-col justify-between flex-1">
                   <h3 className="text-lg font-semibold">Hackathons</h3>
                   <p className="text-gray mt-2">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Quia eveniet, ullam id non, incidunt quisquam ratione
-                    reprehenderit tenetur, iste quidem quos adipisci explicabo
-                    voluptatibus reiciendis at dignissimos a distinctio sint.
+                    Honed my skills in team collaboration, rapid
+                    problem-solving, and innovative thinking. These experiences
+                    have not only sharpened my technical skills but also taught
+                    me the value of teamwork and creativity in overcoming
+                    obstacles.
                   </p>
                   <div className="mt-4 flex gap-2 justify-end">
-                    <a
-                      className="inline-flex items-center justify-center"
-                      href="https://satellite.utsavpoddar.tech"
-                      target="_blank"
-                    >
-                      {/* <Button
-                        className="text-white bg-[#18181b] justify-end"
-                        size="sm"
-                        variant="link"
-                      >
-                        View Project
-                      </Button> */}
-                    </a>
-
-                    <Satellite_Case />
+                    <Hackathons />
                   </div>
                 </CardContent>
               </Card>
             </div>
-            {/* <div className=" rounded-lg bg-gradient-to-r from-[#333333] from-0% to-[#dd1818] to-100% p-0.5">
-              <Card className="bg-[#27272a] text-violet-50 border-0 pt-1">
+            <div className=" rounded-lg bg-gradient-to-r from-[#42275a] from-0% via-[#734b6d] via-50% to-[#42275a] to-100% p-0.5">
+              <Card className="size-full bg-[#171717] text-violet-50 border-0 pt-1 flex flex-col">
                 <img
-                  alt=""
+                  alt="s"
                   className="rounded-t-lg object-cover w-full h-64 px-1  "
                   height="800"
-                  src="https://ralfvanveen.com/wp-content/uploads/2021/06/Placeholder-_-Glossary.svg"
+                  src="./streamstarting.png"
                   style={{
                     aspectRatio: "16/9",
                     objectFit: "cover",
                   }}
                   width="1540"
                 />
-                <CardContent className="p-4">
-                  <h3 className="text-lg font-semibold">activity 1</h3>
+                <CardContent className="p-4 flex flex-col justify-between flex-1">
+                  <h3 className="text-lg font-semibold">
+                    Streaming and Community
+                  </h3>
                   <p className="text-gray mt-2">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Deserunt corrupti ullam neque vel laboriosam sapiente sit
-                    libero nihil fugit, dolores sunt beatae recusandae,
-                    obcaecati nostrum cum reprehenderit, eveniet veniam iure?
+                    On my Twitch channel, I stream development and practice Data
+                    Structures and Algorithms (DSA) to improve public speaking
+                    and engagement. I also showcase my skills and interact with
+                    viewers, sharing knowledge and learning together.
                   </p>
-                  <div className="mt-4 flex gap-2">
-                    <a
-                      className="inline-flex items-center justify-center"
-                      href="#"
-                      target="_blank"
-                    >
-                      <Button
-                        className="text-white bg-[#18181b]"
-                        size="sm"
-                        variant="link"
-                      >
-                        Dont click
-                      </Button>
-                    </a>
+                  <div className="mt-4 flex gap-2 justify-end">
+                    <Twitch />
                   </div>
                 </CardContent>
               </Card>
-            </div> */}
+            </div>
           </div>
         </div>
       </main>

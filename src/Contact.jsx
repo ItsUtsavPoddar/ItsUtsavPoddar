@@ -13,11 +13,15 @@ const Contact = () => {
           <div className="flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-24">
             <a
               className="flex items-center space-x-2 text-gray-50 hover:text-gray-500 "
-              href="https://twitter.com/ItsUtsavPoddar"
+              href="https://www.twitch.tv/itsutsav"
               target="_blank"
             >
-              <TwitterIcon className="h-6 w-6" />
-              <span>X</span>
+              <img
+                src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/twitch-white-icon.png"
+                width="24"
+                height="24"
+              />
+              <span>Twitch</span>
             </a>
             <a
               className="flex items-center space-x-2 text-gray-50 hover:text-gray-500"
