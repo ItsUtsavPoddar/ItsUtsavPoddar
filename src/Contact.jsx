@@ -17,7 +17,8 @@ const Contact = () => {
               target="_blank"
             >
               <img
-                src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/twitch-white-icon.png"
+                alt="s"
+                src="/twitch-white-icon.webp"
                 width="24"
                 height="24"
               />
