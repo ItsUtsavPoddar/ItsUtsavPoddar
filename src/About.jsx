@@ -25,7 +25,7 @@ const About = () => {
                 building innovative solutions and craft them from the void of
                 mere ideas. Currently pursuing Computer Science engineering at
                 Siksha 'O' Anusandhan University, where I developed a solid
-                grasp of subjects like Operating Systems, and Databases.
+                grasp of subjects like Operating Systems and Databases.
               </p>
               <p className="text-lg md:text-xl mb-8">
                 Coding clubs and hackathons have helped me develop a
