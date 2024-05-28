@@ -33,7 +33,7 @@ const Satellite_Case = () => {
                 alt="s"
                 className="rounded-t-md object-cover"
                 height="800"
-                src="/satellite-project.png"
+                src="/Screenshot 2024-05-28 150210.png"
                 style={{
                   aspectRatio: "16/9",
                   objectFit: "cover",

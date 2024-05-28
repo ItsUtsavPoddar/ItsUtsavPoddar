@@ -17,7 +17,7 @@ const Projects = () => {
                   alt="Satellite Tracker"
                   className="rounded-t-lg object-cover w-full h-64 px-1  "
                   height="800"
-                  src="/satellite-project.png"
+                  src="/Screenshot 2024-05-28 150210.png"
                   style={{
                     aspectRatio: "16/9",
                     objectFit: "cover",
