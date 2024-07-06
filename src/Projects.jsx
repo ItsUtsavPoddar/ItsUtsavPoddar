@@ -94,6 +94,64 @@ const Projects = () => {
                   </div>
                 </CardContent>
               </Card>
+            </div>{" "}
+            <div
+              className=" rounded-lg bg-gradient-to-r from-[#0F2027] from-0% via-[#eef2f3]
+            via-50% to-[#0F2027] to-100% p-0.5"
+            >
+              <Card className="size-full bg-[#171717] text-violet-50 border-0 pt-1 flex flex-col">
+                <img
+                  alt="s"
+                  className="rounded-t-lg object-cover w-full h-64 px-1  "
+                  height="800"
+                  src="/chatNGone.png"
+                  style={{
+                    aspectRatio: "16/9",
+                    objectFit: "cover",
+                  }}
+                  width="1540"
+                />
+                <CardContent className="p-4 flex flex-col justify-between flex-1">
+                  <h3 className="text-lg font-semibold">ChatN Gone</h3>
+                  <p className="text-gray mt-2">
+                    Developed a dynamic chat application with features such as
+                    user authentication, anonymous chat, and real-time messaging
+                    using React and Socket.IO. The app supports room creation
+                    and message persistence. Integrated with a custom backend
+                    for message storage and retrieval, ensuring smooth and
+                    responsive user experience. Employed modern UI libraries,
+                    including Tailwind CSS and Shadcn.
+                  </p>
+                  <div className="mt-4 flex gap-2 justify-end">
+                    <a
+                      className="inline-flex items-center justify-center"
+                      href="https://chat.utsavpoddar.tech/auth"
+                      target="_blank"
+                    >
+                      <Button
+                        className="text-white bg-[#18181b] justify-end"
+                        size="sm"
+                        variant="link"
+                      >
+                        View Project
+                      </Button>
+                    </a>
+                    <a
+                      className="inline-flex items-center justify-center"
+                      href="https://github.com/ItsUtsavPoddar/ChatNGone"
+                      target="_blank"
+                    >
+                      <Button
+                        className="text-white bg-[#18181b] justify-end"
+                        size="sm"
+                        variant="link"
+                      >
+                        Github
+                      </Button>
+                    </a>
+                  </div>
+                </CardContent>
+              </Card>
             </div>
           </div>
         </div>
