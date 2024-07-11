@@ -45,11 +45,10 @@ const About = () => {
                 </a>
                 <a
                   className="text-gray-500 hover:text-gray-900 dark:hover:text-gray-100"
-                  download
-                  href="/utsav_poddar_resume.pdf"
+                  href="https://docs.google.com/document/d/1r6ibo7ovJTCbE9nvz_ZxDRW7VBDW2g5oUU4GqiadZGo/edit"
                   target="_blank"
                 >
-                  <Button className="bg-[#4c0519]">Download Resume</Button>
+                  <Button className="bg-[#4c0519]">View Resume</Button>
                 </a>
               </div>
             </div>
