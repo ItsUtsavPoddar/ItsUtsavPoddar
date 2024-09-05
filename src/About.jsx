@@ -45,7 +45,7 @@ const About = () => {
                 </a>
                 <a
                   className="text-gray-500 hover:text-gray-900 dark:hover:text-gray-100"
-                  href="https://docs.google.com/document/d/1r6ibo7ovJTCbE9nvz_ZxDRW7VBDW2g5oUU4GqiadZGo/edit"
+                  href="https://docs.google.com/document/d/14bI1Vrw7w-y4iJ-hI75nKlLTrxkS7fIy1Wj-a72hgJQ"
                   target="_blank"
                 >
                   <Button className="bg-[#4c0519]">View Resume</Button>
